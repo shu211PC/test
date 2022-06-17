@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title> JavaScript課題 </title>
+</head>
+
+<body>
+
+  <from>
+      <select name="todofuken">
+          <option value="error">選択して下さい</option>
+          <option value="error">東京</option>
+          <option value="error">神奈川</option>
+          <option value="error">千葉</option>
+          <option value="error">埼玉</option>
+      </select>
+  </from>
+
+  <form><br>
+      <select name="age">
+          <option>選択してください</option>
+          <script>
+              for(var i = 18; i <= 65; i++){
+                  document.write("<option>");
+                  document.write(i);
+                  document.write("</option>")  
+              }
+          </script>
+      </select>
+  </form></br>
+
+  <script src="script.js"></script>
+
+</body>  
+
+</html>
